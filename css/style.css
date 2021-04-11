@@ -3,5 +3,7 @@
   padding: 20px 0px 20px 0px;
 }
 body{
-    f
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
 }
