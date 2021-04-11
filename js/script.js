@@ -85,6 +85,7 @@ function akanNaming(){
     }
     else
     {
-     alert("input data please");
+     alert("please check data");
     }
+    document.getElementById("display").style.display = 'block';
     }
