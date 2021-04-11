@@ -1,15 +1,23 @@
 #display{
   background-color:#CDA5AD;  
   padding: 20px 0px 20px 0px;
+  color: #2E5E8F;
 }
 body{
     font-style: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 50px;
+    margin-top: 50px;   
+}
+header{
+    background-color:#CDA5AD ;
+    height: 100px;
+    font-size: 60px;
+    color:#2E5E8F;
+
 }
 h1{
-    color: #0557c9;  
+    color:#2E5E8F;  
 }
 h2{
-    color: rgb(30, 102, 170);
+    color:#94443C;
 }
