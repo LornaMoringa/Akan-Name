@@ -1,7 +1,8 @@
 #display{
-  background-color:#CDA5AD;  
+  background-color:#EED8DA;  
   padding: 20px 0px 20px 0px;
   color: #2E5E8F;
+  
 }
 body{
     font-style: normal;
@@ -9,7 +10,7 @@ body{
     margin-top: 50px;   
 }
 header{
-    background-color:#CDA5AD ;
+    background-color:#EED8DA ;
     height: 100px;
     font-size: 60px;
     color:#2E5E8F;
