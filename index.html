@@ -10,15 +10,78 @@
     <title>Akan-Names</title>
 </head>
 <body>
-    <script src="js/script.js"></script>
-    <div class="container">
-        <h1>Akan-Names</h1>
-        <h2>What is Akan naming system?</h2>
-    <p>Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and GhanTa. A child's name is determined by factors surrounding his or her birth. For example, the day of their birth or the manner in which they were born may determine which name they get irrespective of their gender.</p>
-    <p>Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date. This web application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p>
-
-
-
     
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Akan-Names</h1>
+                <h2>What is Akan naming system?</h2>
+                <p>Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and GhanTa. A child's name is determined by factors surrounding his or her birth. For example, the day of their birth or the manner in which they were born may determine which name they get irrespective of their gender.</p>
+                <p>Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date. This web application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p>
+            </div>
+            <div class="col-md-6">
+                <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names;</p>
+                <h2>Male</h2>
+                <ol>
+                    <li>Sunday: Kwasi</li>
+                    <li>Monday: Kwadwo</li>
+                    <li>Tuesday: Kwabena</li>
+                    <li>Wednesday: Kwaku</li>
+                    <li>Thursday:  Yaw</li>
+                    <li>Friday: Kofi</li>
+                    <li>Saturday: Kwame</li>
+                </ol>
+                <h2>Female</h2>
+                <ol>
+                    <li>Sunday: Akosua</li>
+                    <li>Monday: Adwoa</li>
+                    <li>Tuesday: Abenaa</li>
+                    <li>Wednesday: Akua</li>
+                    <li>Thursday:  Yaa</li>
+                    <li>Friday: Afua</li>
+                    <li>Saturday: Ama</li>
+                </ol>
+                <div class="Jumbotron">
+                    <p>Akan Calculator</p>
+                </div>
+                <form class="row g-3">
+                    <div class="col-auto">
+                        <input class="form-control" type="text" id="year" placeholder="Enter the Year" aria-label="">
+                    </div>
+                    <div class="col-auto">
+                        <input class="form-control" type="text" id="month" placeholder="Enter the month" aria-label="">
+                    </div>
+                    <div class="col-auto">
+                        <input class="form-control" type="text" id="day_of_month" placeholder="Enter the day" aria-label="">
+                    </div>
+                </form>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1" value="Male">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2" value="Female">
+                     Female
+                    </label>
+                  </div>
+                  <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3" onclick="calculateBirthday()">Calculate Birthday</button>
+                  </div>
+            </div>
+
+        </div>
+    
+        
+
+
+          <div class="Jumbotron m-5 pt-5">
+              <p id="result"></p>
+          </div>
+    </div>
+
 </body>
+<script src="js/script.js"></script>
 </html>
