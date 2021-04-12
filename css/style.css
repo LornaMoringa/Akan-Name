@@ -28,6 +28,17 @@ header{
     text-size-adjust:inherit;
     text-align: center; 
 }
+img{
+    border-radius: 8px;
+}
+#form{
+    border-radius: 4px;
+    border: 4px solid #94443C;
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    color: #2E5E8F;
+}
 h1{
     color:#2E5E8F;  
 }
