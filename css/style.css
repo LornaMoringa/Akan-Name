@@ -40,6 +40,9 @@ input[type=text]{
 .form{
     color: #2E5E8F;
 }
+img{
+    border-radius: 5px;
+}
 h1{
     color:#2E5E8F;  
 }
