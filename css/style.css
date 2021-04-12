@@ -11,13 +11,23 @@
 body{
     font-style: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 50px;   
+    margin-top: 50px; 
+    margin-bottom: 50px;  
 }
 header{
     background-color:#EED8DA ;
     height: 100px;
     font-size: 60px;
     color:#2E5E8F;
+}
+#footer{
+    background-color: #EED8DA;
+    height: 50px;
+    font-size: 15px;
+    color: #2E5E8F;
+    text-size-adjust:inherit;
+    
+    
 
 }
 h1{
