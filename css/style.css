@@ -28,10 +28,12 @@ header{
     margin-bottom: 50px;
 }
 input[type=text]{ 
-  padding: 5px;
-  margin-left: 0%;
   width: 150px;
   border-radius: 4px;
+  color:rgb(8, 7, 7);
+  border-style: solid;
+  border-color: black;
+
 
 }
 .form{
