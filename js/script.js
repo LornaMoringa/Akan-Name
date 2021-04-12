@@ -88,4 +88,7 @@ function akanNaming(){
      alert("please check data");
     }
     document.getElementById("display").style.display = 'block';
+    let form = document.getElementsByName("form1")[0];
+    form.reset();
+    return false;
     }

@@ -26,6 +26,7 @@ header{
     color: #2E5E8F;
     text-align: center;
     margin-bottom: 50px;
+    padding-top: 10px;
 }
 input[type=text]{ 
   width: 150px;
